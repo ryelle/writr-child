@@ -1,0 +1,215 @@
+/*
+Color: Vintage Strawberry
+*/
+/* =Global
+----------------------------------------------- */
+cite {
+  color: #e2685f; }
+
+mark,
+ins {
+  background: #e2685f; }
+
+/* Forms */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background: #e2685f; }
+
+.widget-area button,
+.widget-area html input[type="button"],
+.widget-area input[type="reset"],
+.widget-area input[type="submit"] {
+  color: #e2685f; }
+
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  background: #dc473c; }
+
+.widget-area input[type="text"],
+.widget-area input[type="url"],
+.widget-area input[type="email"],
+.widget-area input[type="password"],
+.widget-area input[type="search"],
+.widget-area textarea {
+  border-color: #dc473c; }
+
+/* Links */
+a {
+  color: #e2685f; }
+
+a:hover,
+a:focus,
+a:active {
+  color: #dc473c; }
+
+/* =Theme
+----------------------------------------------- */
+body:after {
+  background: #e2685f; }
+
+#sidebar-toggle {
+  background: #dc473c; }
+
+#sidebar-toggle:before,
+#sidebar-toggle:after {
+  border-top-color: #dc473c; }
+
+.site-header {
+  background: #e2685f; }
+
+.site-branding {
+  border-bottom-color: #dc473c; }
+
+.site-title a:hover {
+  color: #dc473c; }
+
+.site-info a:hover {
+  color: #dc473c; }
+
+/* =Menu
+----------------------------------------------- */
+.main-navigation:after {
+  border-bottom-color: #dc473c; }
+
+.main-navigation a:hover {
+  background: #dc473c; }
+
+.main-navigation ul ul {
+  background: #e2685f; }
+
+/* Small menu */
+.menu-toggle,
+.dropdown-icon {
+  background: #dc473c; }
+
+/* =Social links
+----------------------------------------------- */
+#social-links {
+  border-bottom-color: #dc473c; }
+
+.social-links a {
+  background: #dc473c;
+  color: #e2685f; }
+
+/* =Content
+----------------------------------------------- */
+/* Entry title */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+  color: #e2685f; }
+
+/* Entry meta */
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta a:active {
+  color: #e2685f; }
+
+/* More link */
+.more-link {
+  background: #e2685f; }
+
+.more-link:hover,
+.more-link:focus,
+.more-link:active {
+  background: #dc473c; }
+
+/* =Media
+----------------------------------------------- */
+/* Audio */
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background: #e2685f; }
+
+/* =Navigation
+----------------------------------------------- */
+#content [class*="navigation"] a:hover,
+#content [class*="navigation"] a:focus,
+#content [class*="navigation"] a:active {
+  color: #e2685f; }
+
+/* =Comments
+----------------------------------------------- */
+/* Comment metadata */
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:active {
+  color: #e2685f; }
+
+/* =Widgets
+----------------------------------------------- */
+.widget {
+  border-bottom-color: #dc473c; }
+
+.widget th,
+.widget tfoot tr {
+  background: #dc473c; }
+
+.widget th,
+.widget td {
+  border-bottom-color: #dc473c; }
+
+/* Tag cloud */
+.widget_tag_cloud a {
+  background: #dc473c; }
+
+.content-area .widget_tag_cloud a {
+  background: #e2685f; }
+
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus,
+.widget_tag_cloud a:active {
+  color: #e2685f; }
+
+/* List */
+.widget_archive ul a:hover,
+.widget_categories ul a:hover,
+.widget_links ul a:hover,
+.widget_nav_menu ul a:hover,
+.widget_meta ul a:hover,
+.widget_pages ul a:hover,
+.widget_recent_comments ul a:hover,
+.widget_recent_entries ul a:hover,
+.widget_rss ul a:hover,
+.widget_rss_links ul a:hover {
+  color: #dc473c; }
+
+.content-area .widget_categories ul a:hover,
+.content-area .widget_recent_entries ul a:hover {
+  color: #e2685f; }
+
+.content-area .widget_tag_cloud a:hover,
+.content-area .widget_tag_cloud a:focus,
+.content-area .widget_tag_cloud a:active {
+  background: #dc473c; }
+
+/* =Jetpack
+----------------------------------------------- */
+/* Infinite scroll */
+span.infinite-loader .spinner div div {
+  background: #e2685f !important; }
+
+#infinite-handle span {
+  background: #e2685f; }
+
+#infinite-handle span:hover {
+  background: #dc473c; }
+
+/* Widget - Gravtar profile */
+.widget-grofile .grofile-full-link,
+.widget-grofile .grofile-full-link:hover,
+.widget-grofile .grofile-full-link:focus,
+.widget-grofile .grofile-full-link:active {
+  color: #e2685f; }
