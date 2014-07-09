@@ -23,7 +23,9 @@ function writr_child_color_options(){
 	return array(
 		'orange'        => 'Vintage Strawberry',
 		'rose'          => 'January Rose',
+		'rose-2'        => 'Oriental Rose',
 		'teal'          => 'Eskimo Kisses',
+		'grass'         => 'Pisco Sour',
 	);
 }
 
@@ -50,11 +52,11 @@ function writr_child_customize_register( $wp_customize ) {
 	$choices = array_merge( $choices, writr_child_color_options() );
 
 	$wp_customize->add_control( 'writr_color_scheme', array(
-		'label'			    => 'Color Scheme',
-		'section'		    => 'writr_theme_options',
-		'type'              => 'select',
-		'choices'			=> $choices,
-		'priority'		    => 3,
+		'label'    => 'Color Scheme',
+		'section'  => 'writr_theme_options',
+		'type'     => 'select',
+		'choices'  => $choices,
+		'priority' => 3,
 	) );
 
 }
