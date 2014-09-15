@@ -104,3 +104,20 @@ function writr_child_sanitize_color_scheme( $color ) {
 	}
 	return $color;
 }
+
+/**
+ * Adds additional stylesheets to the TinyMCE editor if needed.
+ *
+ * @param string $mce_css CSS path to load in TinyMCE.
+ * @return string
+ */
+function writr_child_mce_css( $mce_css ) {
+
+	if ( ! empty( $mce_css ) )
+		$mce_css .= ',';
+
+	$mce_css .= esc_url_raw( get_stylesheet_directory_uri() . '/editor-style.css' );
+
+	return $mce_css;
+}
+add_filter( 'mce_css', 'writr_child_mce_css' );
